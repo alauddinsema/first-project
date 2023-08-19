@@ -1,0 +1,8 @@
+$primaty: #252525;
+$light: wheat;
+
+@mixin setFlex($space){
+    display: flex;
+    justify-content: $space;
+}
+
